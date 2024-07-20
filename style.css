@@ -1,0 +1,346 @@
+header{
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-around;
+    border-bottom: dotted lightgray;
+
+}
+nav li{
+    display: inline-block;
+    margin: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+
+
+}
+.logopng{
+    margin-left: 50px;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+    color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+.galery{
+    background-image: url(left-banner-image.jpg);
+    background-position: center;    
+    background-size: cover;
+    height: 90vh;
+    flex: 1;
+    align-items: center;
+    display: flex;
+   
+}
+.items{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    text-align: center;
+    height: 90vh;
+    flex: 1;
+    gap: 20px;
+    font-size: 20px;
+}
+#boxes1{
+    background-image: url(baner-right-image-01.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#boxes2{
+    background-image: url(baner-right-image-02.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+#boxes3{
+    background-image: url(baner-right-image-03.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+#boxes4{
+    background-image: url(baner-right-image-04.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+button{
+    background-color: unset;
+    border: white solid 2px;
+    color: white;
+}
+.wrappers{
+  margin-left: 4rem;
+  font-size: 25px;
+  
+}
+.mens-wrapper{
+    margin-top: 80px;
+    margin-left: 10rem;
+    
+}
+.mens-wrapper1{
+    display: flex;
+    gap: 80px;
+    margin-top: 30px;
+    margin-left: 10rem;
+}
+#mens1{
+    background-image:url(men-01.jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45vh;
+    width: 25%;
+}
+#mens2{
+    background-image: url(men-02.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45vh;
+    width: 25%;
+}
+#mens3{
+    background-image: url(men-03.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45vh;
+    width: 25%;
+}
+.offers{
+    display: flex;
+    justify-content: center;
+    gap: 280px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.lines{
+    margin-top: 70px;
+    border-top: dotted lightgray;
+}
+#girls1{
+    background-image: url(women-01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45vh;
+    width: 25%;
+
+}
+#girls2{
+    background-image: url(women-02.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45vh;
+    width: 25%;
+}
+
+#girls3{
+    background-image: url(women-03.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45vh;
+    width: 25%;
+}
+
+#kids1{
+    background-image:url(kid-01.jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45vh;
+    width: 25%;
+}
+#kids2{
+    background-image: url(kid-02.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45vh;
+    width: 25%;
+}
+#kids3{
+    background-image:url(kid-03.jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45vh;
+    width: 25%;
+}
+.colorss{
+    font-size: 18px;
+    color: gray;
+}
+.detais{
+    font-size: 13px;
+    font-style: italic;
+}
+.collections{
+    font-size: 25px;
+}
+.bags{
+    margin-top: 80px;
+    margin-left: 10rem;
+}
+.items1{
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+.items2{
+    margin-top: 20px;
+    display: flex;
+    font-style: italic;
+    font-weight: bold;
+}
+.items3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bags button{
+    color: black;
+    border: solid 1px black;
+    margin-top: 25px;
+    padding: 10px 20px;
+}
+.numbers{
+    font-size: 35px;
+}
+.fourboxesss{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    margin-left: 10rem;
+    margin-top: 80px;
+    width: 38%;
+    gap: 30px;
+    height: 90vh;
+}
+.boxessss{
+    display: flex;
+    
+}
+#photos2{
+    background-image: url(explore-image-01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#photos3{
+    background-image: url(explore-image-02.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.gallerss{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+#photos1{
+    background-color: whitesmoke;
+}
+#photos4{
+    background-color: whitesmoke;
+    
+}
+.social-wrapper{
+    margin-top: 90px;
+    margin-left: 10rem;
+    font-size: 25px
+}
+.stylessss{
+    font-style: italic;
+    font-size: 15px;
+}
+.instagram{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 10rem;
+}
+.subcontainers1{
+    margin-top: 90px;
+    margin-left: 10rem;
+    font-size: 25px;
+    font-weight: bold;
+    
+    
+}
+.subcontainers2{
+    margin-top: 30px;
+    font-style: italic;
+    font-size:15px ;
+}
+.subcontainers3{
+    margin-top: 25px;
+    color: black;
+    font-style: italic;
+}
+
+.sixboxes{
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto auto auto;
+    margin-top: 100px;
+    gap: 30px;
+    height: 50vh;
+    
+
+}
+
+.lastcontent{
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sixboxes h3{
+    font-weight: bold;
+}
+.sixboxes p{
+    font-size:13px;
+}
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+}
+.final-wrapperss{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 20px;
+}
+.lastone-wrappers{
+    text-align: center;
+    margin-top: 25px;
+}
+.liness{
+    margin-top: 3cap;
+    border-top: lightgray;
+}
