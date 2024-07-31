@@ -282,6 +282,7 @@ button{
     display: flex;
     margin-top: 60px;
     margin-left: 10rem;
+    margin-right: 10px;
 }
 .subcontainers1{
     margin-top: 90px;
@@ -344,3 +345,10 @@ footer{
     margin-top: 3cap;
     border-top: lightgray;
 }
+
+@media (max-width:420px){
+
+    
+}
+
+
